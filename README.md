@@ -6,8 +6,8 @@ Version ameliorée de l'ancienne aplication , plus intuitive et plus facile à m
 
 ## Fonctionnalités
 
-**Connexion des utilisateurs** : Les utilisateurs peuvent se connecter avec leurs identifiants ou créer un nouveau compte. - 
-**Gestion des villes** : Les utilisateurs peuvent ajouter ou supprimer des villes de leur liste personnelle. 
+- **Connexion des utilisateurs** : Les utilisateurs peuvent se connecter avec leurs identifiants ou créer un nouveau compte. 
+- **Gestion des villes** : Les utilisateurs peuvent ajouter ou supprimer des villes de leur liste personnelle. 
 - **Affichage des prévisions** : Consultation des prévisions météorologiques pour les villes ajoutées à la liste de l'utilisateur. 
 - **Interface utilisateur intuitive** : Conçue avec PyQt6 pour une interaction facile.
 
