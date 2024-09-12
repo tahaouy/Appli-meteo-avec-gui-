@@ -19,9 +19,9 @@ Avant de pouvoir exécuter cette application, assurez-vous d'avoir installé les
 
 
 Exécutez les commandes suivantes dans votre terminal pour installer les dépendances nécessaires :
- ``bash 
- python -m pip install PyQt6 
- python -m pip install requests``
+  ``
+  python -m pip install PyQt6 requests
+  ``
 
 ## Connexion Internet
 
