@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QWidget" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="username">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #FFFFFF;
+font-size: 14px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Username:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="username_u">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>150</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    QLineEdit {
+        border-radius: 8px;
+        border: 1px solid #444;
+        padding: 8px;
+        font-size: 14px;
+        background-color: #2B2B2B;
+        color: #FFFFFF;
+    }
+    QLineEdit:focus {
+        border-color: #1E88E5;
+        background-color: #333;
+        color: #FFFFFF;
+    }
+    </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mdp">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>200</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #FFFFFF;
+font-size: 14px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Mots de passe:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mdp_u">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>200</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    QLineEdit {
+        border-radius: 8px;
+        border: 1px solid #444;
+        padding: 8px;
+        font-size: 14px;
+        background-color: #2B2B2B;
+        color: #FFFFFF;
+    }
+    QLineEdit:focus {
+        border-color: #1E88E5;
+        background-color: #333;
+        color: #FFFFFF;
+    }
+    </string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="co">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>260</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #2E2E2E;  /* Fond de la boîte de dialogue */
+    border: none;  /* Pas de bordure autour de la boîte */
+    padding: 10px;  /* Espacement autour des boutons */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
+QPushButton {
+    background-color: #6A5ACD;  
+    color: white; 
+    padding: 8px 15px; 
+    border: 1px solid #483D8B; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', sans-serif;  
+ 
+}
+
+QPushButton:hover {
+    background-color: #7B68EE;  /* Couleur au survol */
+}
+
+QPushButton:pressed {
+    background-color: #483D8B;  /* Couleur lors du clic */
+}
+
+QPushButton:disabled {
+    background-color: #555555;  /* Couleur des boutons désactivés */
+    color: #999999;  /* Couleur du texte des boutons désactivés */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Se connecter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cre_co">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>320</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#cre_co {
+    background-color: #28A745;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+QPushButton#cre_co:hover {
+    background-color: #218838;
+}
+
+QPushButton#cre_co:pressed {
+    background-color: #1E7E34;
+}</string>
+   </property>
+   <property name="text">
+    <string>Creer un compte</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="invit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>380</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#invit {
+    background-color: #6C757D;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+QPushButton#invit:hover {
+    background-color: #5A6268;
+}
+
+QPushButton#invit:pressed {
+    background-color: #545B62;
+}</string>
+   </property>
+   <property name="text">
+    <string>Utiliser sans se connecter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="indic">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 15px;
+font-weight: bold;
+color: #FF6F61;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

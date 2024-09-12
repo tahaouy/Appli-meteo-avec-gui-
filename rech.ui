@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>496</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Weather App</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+</string>
+  </property>
+  <widget class="QLineEdit" name="ville_saisie">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>110</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    QLineEdit {
+        border-radius: 8px;
+        border: 1px solid #444;
+        padding: 8px;
+        font-size: 14px;
+        background-color: #2B2B2B;
+        color: #FFFFFF;
+    }
+    QLineEdit:focus {
+        border-color: #1E88E5;
+        background-color: #333;
+        color: #FFFFFF;
+    }
+    </string>
+   </property>
+   <property name="placeholderText">
+    <string>Saisir le nom d'une ville...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rech_ville">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>160</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #2E2E2E;  /* Fond de la boîte de dialogue */
+    border: none;  /* Pas de bordure autour de la boîte */
+    padding: 10px;  /* Espacement autour des boutons */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
+QPushButton {
+    background-color: #6A5ACD;  
+    color: white; 
+    padding: 8px 15px; 
+    border: 1px solid #483D8B; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', sans-serif;  
+ 
+}
+
+QPushButton:hover {
+    background-color: #7B68EE;  /* Couleur au survol */
+}
+
+QPushButton:pressed {
+    background-color: #483D8B;  /* Couleur lors du clic */
+}
+
+QPushButton:disabled {
+    background-color: #555555;  /* Couleur des boutons désactivés */
+    color: #999999;  /* Couleur du texte des boutons désactivés */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="temp_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font-size: 18px;
+margin-bottom: 20px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="desc_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">height: 120px;
+margin-top: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

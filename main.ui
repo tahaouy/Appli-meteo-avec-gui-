@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="ajout_v">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2E2E2E;  /* Fond de la boîte de dialogue */
+    border: none;  /* Pas de bordure autour de la boîte */
+    padding: 10px;  /* Espacement autour des boutons */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
+QPushButton {
+    background-color: #6A5ACD;  
+    color: white; 
+    padding: 8px 15px; 
+    border: 1px solid #483D8B; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', sans-serif;  
+ 
+}
+
+QPushButton:hover {
+    background-color: #7B68EE;  /* Couleur au survol */
+}
+
+QPushButton:pressed {
+    background-color: #483D8B;  /* Couleur lors du clic */
+}
+
+QPushButton:disabled {
+    background-color: #555555;  /* Couleur des boutons désactivés */
+    color: #999999;  /* Couleur du texte des boutons désactivés */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Ajouter une ville à enregistrer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="supp_v">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2E2E2E;  /* Fond de la boîte de dialogue */
+    border: none;  /* Pas de bordure autour de la boîte */
+    padding: 10px;  /* Espacement autour des boutons */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
+QPushButton {
+    background-color: #6A5ACD;  
+    color: white; 
+    padding: 8px 15px; 
+    border: 1px solid #483D8B; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', sans-serif;  
+ 
+}
+
+QPushButton:hover {
+    background-color: #7B68EE;  /* Couleur au survol */
+}
+
+QPushButton:pressed {
+    background-color: #483D8B;  /* Couleur lors du clic */
+}
+
+QPushButton:disabled {
+    background-color: #555555;  /* Couleur des boutons désactivés */
+    color: #999999;  /* Couleur du texte des boutons désactivés */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Supprimer une ville enregistrée</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recherch_v">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2E2E2E;  /* Fond de la boîte de dialogue */
+    border: none;  /* Pas de bordure autour de la boîte */
+    padding: 10px;  /* Espacement autour des boutons */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
+QPushButton {
+    background-color: #6A5ACD;  
+    color: white; 
+    padding: 8px 15px; 
+    border: 1px solid #483D8B; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', sans-serif;  
+ 
+}
+
+QPushButton:hover {
+    background-color: #7B68EE;  /* Couleur au survol */
+}
+
+QPushButton:pressed {
+    background-color: #483D8B;  /* Couleur lors du clic */
+}
+
+QPushButton:disabled {
+    background-color: #555555;  /* Couleur des boutons désactivés */
+    color: #999999;  /* Couleur du texte des boutons désactivés */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Rechercher la météo d'une ville</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="affich_v">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>250</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #2E2E2E;  /* Fond de la boîte de dialogue */
+    border: none;  /* Pas de bordure autour de la boîte */
+    padding: 10px;  /* Espacement autour des boutons */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
+QPushButton {
+    background-color: #6A5ACD;  
+    color: white; 
+    padding: 8px 15px; 
+    border: 1px solid #483D8B; 
+    border-radius: 6px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', sans-serif;  
+ 
+}
+
+QPushButton:hover {
+    background-color: #7B68EE;  /* Couleur au survol */
+}
+
+QPushButton:pressed {
+    background-color: #483D8B;  /* Couleur lors du clic */
+}
+
+QPushButton:disabled {
+    background-color: #555555;  /* Couleur des boutons désactivés */
+    color: #999999;  /* Couleur du texte des boutons désactivés */
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Afficher les villes enregistrées</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
