@@ -2,7 +2,7 @@
 
 # Gestion des Villes et Météo
 
-Version ameliorée de l'ancienne aplication , plus intuitive et plus facile à manier avec une interface graphique cette fois
+Version ameliorée de l'ancienne application , plus intuitive et plus facile à manier avec une interface graphique cette fois
 
 ## Fonctionnalités
 
